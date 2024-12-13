@@ -37,7 +37,7 @@ function initMap() {
             position: {lat: 0.04963891883540675, lng: -51.05936196578112 },
             content: `
                 <div style="text-align: left; background-color:#4EF279;  padding: 10px; border-radius: 10px; ">
-                    <img src="./assets/imageMapView/talentus.png" alt="Trem Desportivo Club" style="width: 200px; height: auto; margin-top: 0%; border-radius: 15px;">
+                    <img src="./assets/imageMapView/Talentusarena.png" alt="Trem Desportivo Club" style="width: 200px; height: auto; margin-top: 0%; border-radius: 15px;">
                     <h1 class="text-2xl mt-4 mb-2 font-bold">Arena Talentus</h1>
                     <h3 class="text-1xls font-black">Bairro: Jesus de Nazaré</h3>
                     <button onclick="window.location.href='https://chat.whatsapp.com/CSPUglYmrJwFbZ7mqE1p3u';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>

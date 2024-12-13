@@ -9,15 +9,9 @@
     height: 81vh; /* Define a altura do mapa */
     width: 100%;   /* Define a largura do mapa */
 }
-h1{
-    padding: 1;
-    margin-bottom: 1%;
-    
-}
-
 @media (min-width: 1024px) {
     #map {
-        height: 86vh; /* Altura de 100% da altura da tela */
+        height: 100vh; /* Altura de 100% da altura da tela */
         width: 100%;   /* Largura de 100% */
     }
 }
