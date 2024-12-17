@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($senha === $senha_bd) {
             echo "Login bem-sucedido!";
             // Redireciona para a página inicial
-            header("Location: ../index.html");
+            header("Location: ../Logado/index.html");
             exit();
         } else {
             echo "Senha incorreta.";

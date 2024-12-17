@@ -23,7 +23,7 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("sss", $nome, $email, $senha);
 
 if ($stmt->execute()) {
-    header("Location: ../index.html");
+    header("Location: ../Logado/index.html");
     exit();
 } else {
     echo "Erro no cadastro: " . $stmt->error;
