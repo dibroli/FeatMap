@@ -17,7 +17,7 @@ function initMap() {
                     <img src="./assets/imageMapView/GinásioTrem.webp" alt="Trem Desportivo Club" style="width: 200px; height: auto; margin-top: 0%; border-radius: 15px;">
                     <h1 class="text-2xl mt-4 mb-2 font-bold">Ginásio do Trem</h1>
                      <h3 class="text-1xls font-black">Bairro: Trem</h3>
-                    <button onclick="window.location.href='https://chat.whatsapp.com/CSPUglYmrJwFbZ7mqE1p3u';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>
+                    <button onclick="window.location.href='./Tremsection.html';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>
                 </div>
             `,
             
@@ -29,7 +29,7 @@ function initMap() {
                     <img src="./assets/imageMapView/JaciBarata.avif" alt="Trem Desportivo Club" style="width: 200px; height: auto; margin-top: 0%; border-radius: 15px;">
                     <h1 class="text-2xl mt-4 mb-2 font-bold">Jaci Barata</h1>
                      <h3 class="text-1xls font-black">Bairro: Central</h3>
-                    <button onclick="window.location.href='https://chat.whatsapp.com/CSPUglYmrJwFbZ7mqE1p3u';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>
+                    <button onclick="window.location.href='./Jacibaratasection.html';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>
                 </div>
             `,
         },
@@ -51,7 +51,7 @@ function initMap() {
                     <img src="./assets/imageMapView/boneazul.jpeg" alt="Trem Desportivo Club" style="width: 205px; height: auto; margin-top: 0%; border-radius: 15px;">
                     <h1 class="text-2xl mt-4 mb-2 font-bold">Complexo Boné Azul</h1>
                     <h3 class="text-1xls font-black">Bairro: Boné Azul</h3>
-                    <button onclick="window.location.href='https://chat.whatsapp.com/CSPUglYmrJwFbZ7mqE1p3u';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>
+                    <button onclick="window.location.href='./Boneazulsection.html';"  style="margin-top: 10px; padding: 10px 15px; background-color: #2762B8; color: white; border: none; border-radius: 5px; cursor: pointer;">Ver mais</button>
                     
                 </div>
             `,

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/output.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Complexo Boné Azul</title>
+</head>
+<body>
+      
+    <header class=" p-4 bg-green-500 shadow md:flex md:items-center md: justify-between" >
+        <div class="flex justify-between">
+            <span class="text-2xl font[Poppins] cursor-pointer text-white font-bold">
+                <img class="h-11 inline"  src="assets/icons/LogoIcon.png" alt="logofeatmap">
+                FeatMap
+            </span>
+                
+            <span class="text-3xl cursor-pointer md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+        <span>
+            <div class="w-10vh p-2 bg-green-500 hidden lg:block">
+                <input class="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Filter projects" placeholder="Encontre seu grupo">
+            </div>
+        
+        </span>
+        <ul class="md:flex md:items-center z-10 md:z-auto md:static absolute bg-green-500 w-full left-0 md:w-auto md:py -0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="index.html" class=" text-blue-950 text-xl hover:text-gray-600 duration-300">Explore</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="" class=" text-blue-950 text-xl hover:text-gray-600 duration-300">Buscar Grupos</a>
+            </li>
+        
+            <button class="bg-blue-700 text-white font[Poppins] duration-500 rounded px-6 py-2 mx-4 hover:bg-blue-500 ">
+                <a href="login.html">Login</a>
+            </button>
+        </ul>
+    </header>
+
+    <!--Grupos section-->
+    <div class="p-7 flex flex-col items-start justify-start font-semibold text-2xl text-blue-600 
+    transition duration-300 ease-in-out hover:text-blue-800">
+      Local  
+      <h1 class="text-xl font-medium transition duration-300 ease-in-out hover:text-blue-800">
+        Complexo Boné Azul
+      </h1>
+    </div>
+  
+
+    <div class="bg-gray-200 rounded-2xl shadow-2xl md:max-w-full p-4 relative flex flex-col m-6 space-y-8">
+      <div class="md:flex p-4">
+        <div class="md:shrink-0">
+          <img class="h-48 w-full object-cover rounded-md md:h-full md:w-48" src="assets/sectionIcons/grupo1Bone.jpeg" alt="Modern building architecture">
+        </div>
+        <div class="p-4">
+          <div class="uppercase tracking-wide text-xl text-indigo-500 font-bold">NBBA - NOVO BASQUETE BONE AZUL</div>
+          <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Localização: Ginásio do Trem</a>
+          <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+          <div  class="p-3 flex items-center justify-between">
+            <img class="h-16 w-16 rounded-full object-cover" src="assets/profileIcons/Perfil3.png" alt="Foto de perfil">
+            <h1 class=" p-4 gap-2 font-bold"> Yarley é o adm desse grupo</h1>
+            <button class="ml-auto bg-blue-700 text-white px-6 py-2 rounded font-semibold text-lg hover:bg-blue-600">
+              Entrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="bg-gray-200 rounded-2xl shadow-2xl md:max-w-full p-4 relative flex flex-col m-6 space-y-8">
+      <div class="md:flex p-4">
+        <div class="md:shrink-0">
+          <img class="h-48 w-full object-cover rounded-md md:h-full md:w-48" src="assets/sectionIcons/grupo2Bone.webp" alt="Modern building architecture">
+        </div>
+        <div class="p-4">
+          <div class="uppercase tracking-wide text-xl text-indigo-500 font-bold"> VB - Volei do Boné</div>
+          <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Localização: Ginásio do Trem</a>
+          <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+          <div  class="p-3 flex items-center justify-between">
+            <img class="h-16 w-16 rounded-full object-cover" src="assets/profileIcons/Perfil2.jpeg" alt="Foto de perfil">
+            <h1 class=" p-4 gap-2 font-bold"> Emanuel é o adm desse grupo</h1>
+            <button class="ml-auto bg-blue-700 text-white px-6 py-2 rounded font-semibold text-lg hover:bg-blue-600">
+              Entrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="bg-gray-200 rounded-2xl shadow-2xl md:max-w-full p-4 relative flex flex-col m-6 space-y-8">
+      <div class="md:flex p-4">
+        <div class="md:shrink-0">
+          <img class="h-48 w-full object-cover rounded-md md:h-full md:w-48" src="assets/sectionIcons/grupo3Bone.jpeg" alt="Modern building architecture">
+        </div>
+        <div class="p-4">
+          <div class="uppercase tracking-wide text-xl text-indigo-500 font-bold">Futebol Associado</div>
+          <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Localização: Ginásio do Trem</a>
+          <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+          <div  class="p-3 flex items-center justify-between">
+            <img class="h-16 w-16 rounded-full object-cover" src="assets/profileIcons/Perfil1.png" alt="Foto de perfil">
+            <h1 class=" p-4 gap-2 font-bold"> Diego é o adm desse grupo</h1>
+            <button class="ml-auto bg-blue-700 text-white px-6 py-2 rounded font-semibold text-lg hover:bg-blue-600">
+              Entrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script>
+        function Menu(e) {
+        let list = document.querySelector('ul');
+        if (e.name === 'menu') {
+            e.name = 'close';
+            list.classList.add('top-[80px]');
+            list.classList.add('opacity-100');
+        } else {
+            e.name = 'menu';
+            list.classList.remove('top-[80px]');
+            list.classList.remove('opacity-100');
+        }
+    }
+    </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3paZJllD8VOK15WNMGg0PeHJLEd4x5JI&loading=async&callback=initMap">
+    </script>
+
+</body>
+</html>
