@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login FeatMap</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" class="p-4">
+        <div class="flex items-center justify-center min-h-screen bg-gradient-to-r from-green-200 to-green-500">
+            <div class="relative flex flex-col m-6 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-x-0">
+                <div class="flex flex-col justify-center p-8 md:p-14">
+                    <span class="flex items-center justify-center mb-3 text-4xl font-bold">Cadastre-se</span>
+                    <span class="font-light text-gray-400 mb-8">
+                        Faça seu cadastro e encontre o grupo que combina com você.
+                    </span>
+
+                    <div class="py-4">
+                        <label for="nome" class="mb-2 text-md">Nome</label>
+                        <input type="text" 
+                               class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
+                               name="nome"
+                               id="nome"
+                               required>
+                    </div>
+                    <div class="py-4">
+                        <label for="email" class="mb-2 text-md">Email</label>
+                        <input type="email" 
+                               class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
+                               name="email"
+                               id="email"
+                               required>
+                    </div>
+                    <div class="py-4">
+                        <label for="senha" class="mb-2 text-md">Senha</label>
+                        <input type="password" 
+                               name="senha"
+                               id="senha"
+                               class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
+                               required>
+                    </div>
+
+                    <button type="submit"
+                            class="w-full bg-green-500 text-white p-2 rounded-lg mb-6 hover:bg-green-600 hover:text-gray-200 hover:border hover:border-gray-300">
+                        Cadastrar-se
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
